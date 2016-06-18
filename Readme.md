@@ -18,13 +18,17 @@ New-RandomPassword is a PowerShell module designed to generate passwords that ar
 ## Example usage
 
 1. Generates a Random password with the default options.
+
    New-RandomPassword
 
 2. Generates a Random password without using special characters.
+
    New-RandomPassword -basic
 
-3. Generates a random password using #*^.@ as the special characters
+3. Generates a random password using \#*^.@\ as the special characters
+
    New-RandomPassword -specialChars "#*^.@"
 
 4. Generates 5, 15 character passwords
+
    New-RandomPassword -length 15 -numOfPass 5
