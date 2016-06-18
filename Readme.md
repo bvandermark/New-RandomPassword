@@ -25,7 +25,7 @@ New-RandomPassword is a PowerShell module designed to generate passwords that ar
 
    New-RandomPassword -basic
 
-3. Generates a random password using \#*^.@\ as the special characters
+3. Generates a random password using \#*^.@ as the special characters
 
    New-RandomPassword -specialChars "#*^.@"
 
